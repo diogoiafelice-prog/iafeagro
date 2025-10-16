@@ -1,25 +1,20 @@
 {
+  "name": "iafeagro-site",
+  "version": "1.0.0",
   "private": true,
-  "license": "MIT",
   "scripts": {
-    "dev": "next",
-    "build": "node ./scripts/gen-rss.js && next build",
-    "start": "next start"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "gray-matter": "^4.0.3",
-    "next": "^13.5.6",
-    "nextra": "^2.13.2",
-    "nextra-theme-blog": "^2.13.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "rss": "^1.2.2"
+    "react-dom": "^18.2.0"
   },
-  "prettier": {
-    "arrowParens": "always",
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "none",
-    "semi": false
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "tailwindcss": "^4.0.0",
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
   }
 }
